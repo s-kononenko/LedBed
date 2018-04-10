@@ -89,7 +89,7 @@ EthernetServer server(80);
 
 //thingspeak.com
 const unsigned long thChannelNumber = 177346;
-const char *  thWriteAPIKey = "YS4GRWYHJQXCC2CJ";
+const char *  thWriteAPIKey = "";
 long thpreviousMillis = 0;                  // временная переменная
 long thinterval = 1;                        // период логгирования показаний в thingspeak.com, в минутах
 const uint8_t thtemperatureId = 1;          // id полей
